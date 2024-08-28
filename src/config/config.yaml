@@ -1,0 +1,31 @@
+Log:
+  Level: debug
+  Color: true
+  Json: false
+
+Interface:
+  Enable: true
+  Http:
+    Port: 3000
+    DisableCors: true
+
+Database:
+  Enable: true
+  Username: postgres
+  Password: postgres
+  Host: 127.0.0.1
+  Port: 5433
+  DatabaseName: chat-engine
+  DatabaseSchema: public
+  DatabaseTestSchema: test_public
+  ConnectionTimeout: 30
+  MaxConnection: 1000
+  MinConnection: 20
+  LogLevel: debug
+
+Http:
+  User_id: user_id
+  Room_id: room_id
+  
+System:
+  TimeZone: Asia/Bangkok
